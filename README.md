@@ -42,13 +42,3 @@ not redistributed here.
   configured at the top of the module (`DATA_PREPROC_DIR` and
   `EICU_DIR`).
 
-## Backbones and adapters
-
-The heterogeneous base classifiers used in the paper (11 trained
-irregular-time and general-purpose time-series models, plus 6 frozen
-foundation models) are consumed from their original open-source
-implementations. The adapter code that composes each backbone with
-`LIFTFrequencyPlugin` and `UncertaintyAwareSafeFusion` is
-implementation-specific and is not included in this supplement; the
-core LIFT and SafeFusion modules above can be composed with any
-backbone that exposes a logit output.
