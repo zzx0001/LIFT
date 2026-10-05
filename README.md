@@ -1,9 +1,6 @@
-# LIFT — Code Supplement
+# LIFT 
 
-Reference implementation of the LIFT plugin and its data-preparation
-utilities used in the paper. This folder contains the two core modelling
-contributions and the dataset-preparation logic for the two clinical
-tasks evaluated in the paper.
+Reference implementation of the LIFT plugin used in the paper.
 
 ## Contents
 
